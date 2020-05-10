@@ -2,8 +2,8 @@ import { getName } from "../props/SharedProps";
 import { getProp } from "../props/prop";
 
 export default () => {
-  const name = getName();
-  const title = getProp("");
+  const name = getName(); // Shared prop
+  const title = getProp(""); // Private prop
   return (
     <div>
       Name:{" "}
